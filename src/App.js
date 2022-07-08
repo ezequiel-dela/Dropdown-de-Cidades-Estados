@@ -14,8 +14,6 @@ function App() {
     setFormValues({ ...formValues, [name]: value });
   }
 
-  console.log(formValues);
-
   return (
     <div className="container">
       <form>
